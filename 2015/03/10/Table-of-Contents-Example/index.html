@@ -9,19 +9,19 @@
     
         <meta name="keywords" content="markdown" />
     
-    <meta name="description" content="How to enable table of content for a post?Add the highlighted line to the front-matter of your post Markdown file: 1234title: Table of Contents Exampledate: 2015-03-10 22:46:00thumbnail: /hexo-theme-h">
+    <meta name="description" content="How to enable table of content for a post?First, let’s enable the catalog widget:12345678widgets:+   - catalog    - recent_posts    - category    - archive    - tag    - tagcloud    - links Then, add">
 <meta name="keywords" content="markdown">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Table of Contents Example">
 <meta property="og:url" content="http://ppoffice.github.io/2015/03/10/Table-of-Contents-Example/index.html">
 <meta property="og:site_name" content="Hueman">
-<meta property="og:description" content="How to enable table of content for a post?Add the highlighted line to the front-matter of your post Markdown file: 1234title: Table of Contents Exampledate: 2015-03-10 22:46:00thumbnail: /hexo-theme-h">
+<meta property="og:description" content="How to enable table of content for a post?First, let’s enable the catalog widget:12345678widgets:+   - catalog    - recent_posts    - category    - archive    - tag    - tagcloud    - links Then, add">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="http://ppoffice.github.io/hexo-theme-hueman/gallery/snow-wolf.jpg">
-<meta property="og:updated_time" content="2018-03-11T05:20:47.186Z">
+<meta property="og:updated_time" content="2018-03-11T16:01:30.935Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Table of Contents Example">
-<meta name="twitter:description" content="How to enable table of content for a post?Add the highlighted line to the front-matter of your post Markdown file: 1234title: Table of Contents Exampledate: 2015-03-10 22:46:00thumbnail: /hexo-theme-h">
+<meta name="twitter:description" content="How to enable table of content for a post?First, let’s enable the catalog widget:12345678widgets:+   - catalog    - recent_posts    - category    - archive    - tag    - tagcloud    - links Then, add">
 <meta name="twitter:image" content="http://ppoffice.github.io/hexo-theme-hueman/gallery/snow-wolf.jpg">
     
 
@@ -171,13 +171,8 @@
         
         
         <div class="article-entry" itemprop="articleBody">
-            
-            <div id="toc" class="toc-article">
-                <strong class="toc-title">Table of Contents</strong>
-                <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#How-to-enable-table-of-content-for-a-post"><span class="toc-number">1.</span> <span class="toc-text">How to enable table of content for a post?</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#First-level-title"><span class="toc-number">2.</span> <span class="toc-text">First level title</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Second-level-title"><span class="toc-number">2.1.</span> <span class="toc-text">Second level title</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Third-level-title"><span class="toc-number">2.1.1.</span> <span class="toc-text">Third level title</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Another-third-level-title"><span class="toc-number">2.1.2.</span> <span class="toc-text">Another third level title</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Another-second-level-title"><span class="toc-number">2.2.</span> <span class="toc-text">Another second level title</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Another-first-level-title"><span class="toc-number">3.</span> <span class="toc-text">Another first level title</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Final-title"><span class="toc-number">3.1.</span> <span class="toc-text">Final title</span></a></li></ol></li></ol>
-            </div>
-            
-            <h1 id="How-to-enable-table-of-content-for-a-post"><a href="#How-to-enable-table-of-content-for-a-post" class="headerlink" title="How to enable table of content for a post?"></a>How to enable table of content for a post?</h1><p>Add the highlighted line to the front-matter of your post Markdown file:</p>
+            <h1 id="How-to-enable-table-of-content-for-a-post"><a href="#How-to-enable-table-of-content-for-a-post" class="headerlink" title="How to enable table of content for a post?"></a>How to enable table of content for a post?</h1><p>First, let’s enable the <code>catalog</code> widget:<br><figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">widgets:</span><br><span class="line"><span class="addition">+   - catalog</span></span><br><span class="line">    - recent_posts</span><br><span class="line">    - category</span><br><span class="line">    - archive</span><br><span class="line">    - tag</span><br><span class="line">    - tagcloud</span><br><span class="line">    - links</span><br></pre></td></tr></table></figure></p>
+<p>Then, add <code>toc: true</code> to the front-matter of the posts where you want to show a catalog:</p>
 <figure class="highlight diff"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">title: Table of Contents Example</span><br><span class="line">date: 2015-03-10 22:46:00</span><br><span class="line">thumbnail: /hexo-theme-hueman/gallery/little-girl.jpg</span><br><span class="line"><span class="addition">+ toc: true</span></span><br></pre></td></tr></table></figure>
 <p>And that’s it!</p>
 <h1 id="First-level-title"><a href="#First-level-title" class="headerlink" title="First level title"></a>First level title</h1><h2 id="Second-level-title"><a href="#Second-level-title" class="headerlink" title="Second level title"></a>Second level title</h2><h3 id="Third-level-title"><a href="#Third-level-title" class="headerlink" title="Third level title"></a>Third level title</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rutrum faucibus tellus in lobortis. Etiam ultrices<br>et risus at tempor. Aenean mollis in metus sed rutrum. Sed aliquet vel urna in luctus. Donec at sodales mauris. Donec<br>sed metus fermentum, pellentesque velit ac, tincidunt augue. Integer mattis risus a finibus iaculis. Donec mattis,<br>tellus a iaculis fringilla, ante quam rutrum urna, a mollis lorem lacus cursus risus. Pellentesque a quam in tellus<br>tincidunt imperdiet. Etiam eget fringilla risus. Praesent mauris massa, aliquam non nibh et, commodo rutrum ligula. Duis<br>fermentum gravida lectus at placerat. Suspendisse blandit rutrum lacus vel semper. Nulla magna ex, gravida quis ante<br>sed, gravida ornare ipsum.</p>
@@ -197,7 +192,7 @@
 
 
 
-    <a data-url="http://ppoffice.github.io/2015/03/10/Table-of-Contents-Example/" data-id="cjemcqe7o000jsgu07xfqnwmx" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://ppoffice.github.io/2015/03/10/Table-of-Contents-Example/" data-id="cjemzmhpc000twgu0r7gvkrtq" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -356,6 +351,18 @@
     
     <div class="widgets-container">
         
+            
+                
+<div class="widget-wrap widget-list">
+    <h3 class="widget-title">Catalog</h3>
+    <div class="widget">
+        <div id="toc" class="toc-article">
+            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#How-to-enable-table-of-content-for-a-post"><span class="toc-number">1.</span> <span class="toc-text">How to enable table of content for a post?</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#First-level-title"><span class="toc-number">2.</span> <span class="toc-text">First level title</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Second-level-title"><span class="toc-number">2.1.</span> <span class="toc-text">Second level title</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Third-level-title"><span class="toc-number">2.1.1.</span> <span class="toc-text">Third level title</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Another-third-level-title"><span class="toc-number">2.1.2.</span> <span class="toc-text">Another third level title</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Another-second-level-title"><span class="toc-number">2.2.</span> <span class="toc-text">Another second level title</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Another-first-level-title"><span class="toc-number">3.</span> <span class="toc-text">Another first level title</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Final-title"><span class="toc-number">3.1.</span> <span class="toc-text">Final title</span></a></li></ol></li></ol>
+        </div>
+    </div>
+</div>
+
+
             
                 
     <div class="widget-wrap">
