@@ -1,3 +1,11 @@
+# Site
+title: 개발 블로그
+subtitle: jin's IT Blog
+description: 
+author: jin
+language: en
+timezone: Asia/Seoul
+
 # Menus
 menu:
     Home: /
