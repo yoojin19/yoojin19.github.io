@@ -5,7 +5,6 @@ description:
 author: jin
 language: en
 timezone: Asia/Seoul
-
 # Menus
 menu:
     Home: /
@@ -118,3 +117,4 @@ miscellaneous:
         twitter_id:
         google_plus:
     links:
+        Hexo: http://hexo.io
